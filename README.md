@@ -23,3 +23,14 @@ In this documentation, we will build this code from scratch. By the end of the d
 6. Finally, follow [this](https://youtu.be/-8L4OxotXlE?list=PLD_RqipW0-9s-u1HXTglYV8Aam-5P3XLi) video to set up the time inverval to run your lambda function serverlessly. 
 
 ### Congratulations! You've just created a web scraping tool and it's running on the cloud!
+
+### Discussion
+After data processing, the graph of visitors online / time for QingHuaYu is here: 
+![alt text](https://github.com/b991/QingHuaYuSraping/blob/main/QingHuaYuDataGraph.png)
+
+This graph suggests that at midnight, Qing Hua Yu website gets the most amount of visitor. Therefore, the best time to publish/update your novel is after 8:00 pm and before midnight in Chinese Standard Time. 
+
+There are also more visitors in Summer (August) than in September, possibly due the start of shcool for students. 
+
+Details for data processing and method discussion can be found in [this](https://github.com/b991/QingHuaYuSraping/blob/main/QingHuaYuDataProcess.ipynb) Jupyter Notebook. 
+
